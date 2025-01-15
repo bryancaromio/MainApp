@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		11714A242D37FAE90025C2FE /* SubModule1 in Frameworks */ = {isa = PBXBuildFile; productRef = 11714A232D37FAE90025C2FE /* SubModule1 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		11714A072D37F8320025C2FE /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11714A212D37FADE0025C2FE /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11714A242D37FAE90025C2FE /* SubModule1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +38,7 @@
 		117149FE2D37F8320025C2FE = {
 			isa = PBXGroup;
 			children = (
+				11714A212D37FADE0025C2FE /* Core */,
 				11714A092D37F8320025C2FE /* MainApp */,
 				11714A082D37F8320025C2FE /* Products */,
 			);
@@ -65,6 +72,7 @@
 			);
 			name = MainApp;
 			packageProductDependencies = (
+				11714A232D37FAE90025C2FE /* SubModule1 */,
 			);
 			productName = MainApp;
 			productReference = 11714A072D37F8320025C2FE /* MainApp.app */;
@@ -94,6 +102,9 @@
 			);
 			mainGroup = 117149FE2D37F8320025C2FE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				11714A222D37FAE90025C2FE /* XCLocalSwiftPackageReference "Core" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 11714A082D37F8320025C2FE /* Products */;
 			projectDirPath = "";
@@ -322,6 +333,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		11714A222D37FAE90025C2FE /* XCLocalSwiftPackageReference "Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Core;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11714A232D37FAE90025C2FE /* SubModule1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SubModule1;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 117149FF2D37F8320025C2FE /* Project object */;
 }

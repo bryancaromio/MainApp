@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SubModule1
 
 @main
 struct MainAppApp: App {
