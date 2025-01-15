@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SubModule1
 
 struct ContentView: View {
     var body: some View {
@@ -13,6 +14,10 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+                .onTapGesture {
+                    SubModule1()
+                        .printText()
+                }
             Text("Hello, world!")
         }
         .padding()
